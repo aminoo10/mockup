@@ -1,26 +1,86 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header, section {
+  padding-left: 9rem;
+}
 header {
   background-color: #2F9AB5;
   color: White;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 nav {
   background-color: #EBEBEB;
+  padding-top:.5rem;
+  padding-bottom:.5rem;
+  padding-left:8.3rem;
 }
-nav * {
+nav a{
   color:#393939;
   text-decoration: none;
+  font-weight: bold;
+  padding:10px;
+}
+#first-link {
+  padding-left:10px;
+}
+footer.real {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 footer.real, footer.real a {
   clear:both;
   background-color: #393939;
   color: white;
   text-decoration:none;
+  text-align:center;
+}
+footer.real a {
+  font-weight: bold;
+  padding:5px;
+}
+footer.real img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mirana {
+  float:left;
+  width:50%;
+  padding-bottom: 5rem;
 }
 aside {
+  width:20%;
   float: right;
   padding-bottom:5rem; 
+  padding-right:9rem;
 }
 section{
+  width:50%;
   float: left;
+}
+h4 {
+  color: #269AB6;
+}
+.quote{
+  color: #7AC9DC;
+}
+.side-link{
+  color: #269AB6;
+  text-decoration:none;
+}
+aside h3 {
+  padding-top: 2rem;
+}
+section p {
+  padding-bottom:2rem;
+}
+a:hover, footer.real a:hover { /*no idea why this doesn't cover all anchor tag elements so I had to specify the footer links*/
+  text-decoration: underline
+}
+#description {
+  clear:left;
 }
 
 
