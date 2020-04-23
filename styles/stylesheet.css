@@ -1,0 +1,26 @@
+header {
+  background-color: #2F9AB5;
+  color: White;
+}
+nav {
+  background-color: #EBEBEB;
+}
+nav * {
+  color:#393939;
+  text-decoration: none;
+}
+footer.real, footer.real a {
+  clear:both;
+  background-color: #393939;
+  color: white;
+  text-decoration:none;
+}
+aside {
+  float: right;
+  padding-bottom:5rem; 
+}
+section{
+  float: left;
+}
+
+
