@@ -66,7 +66,7 @@ h4 {
 .quote{
   color: #7AC9DC;
 }
-.side-link{
+.side-link, .intext-link { /*wasn't sure if the colored text inside the paragraphs were links, but made them to be links just to be safe*/
   color: #269AB6;
   text-decoration:none;
 }
@@ -82,5 +82,3 @@ a:hover, footer.real a:hover { /*no idea why this doesn't cover all anchor tag e
 #description {
   clear:left;
 }
-
-
