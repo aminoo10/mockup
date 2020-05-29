@@ -20,7 +20,7 @@ nav a{
   color:#393939;
   text-decoration: none;
   font-weight: bold;
-  padding:10px;
+  padding:15px; /*increased padding for easier clickability*/
 }
 #first-link {
   padding-left:10px;
@@ -32,7 +32,7 @@ footer.real {
 footer.real, footer.real a {
   clear:both;
   background-color: #393939;
-  color: white;
+  color: #ffffff;
   text-decoration:none;
   text-align:center;
 }
@@ -61,13 +61,14 @@ section{
   float: left;
 }
 h4 {
-  color: #269AB6;
+  color: #208097; /*adjusted this color as well as other of the same color for better contrast*/
 }
 .quote{
-  color: #7AC9DC;
+  -webkit-text-stroke: .015rem black; /*I didn't want to mess with the design spec of this website, so I added an outline to the quote for better contrast*/
+  color: #7AC9DC; 
 }
 .side-link, .intext-link { /*wasn't sure if the colored text inside the paragraphs were links, but made them to be links just to be safe*/
-  color: #269AB6;
+  color: #208097;
   text-decoration:none;
 }
 aside h3 {
@@ -81,4 +82,12 @@ a:hover, footer.real a:hover { /*no idea why this doesn't cover all anchor tag e
 }
 #description {
   clear:left;
+}
+.sr-only { /*for descriptions to links that seem ambiguous*/
+  position: absolute;
+  left:-10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
